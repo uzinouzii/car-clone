@@ -9,13 +9,30 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-md/divider": "^5.0.0",
+    "@react-native-firebase/app": "^14.3.2",
+    "@react-native-firebase/firestore": "^14.3.2",
+    "@react-navigation/bottom-tabs": "^6.2.0",
+    "@react-navigation/native": "^6.0.8",
+    "@react-navigation/native-stack": "^6.5.0",
+    "@react-navigation/stack": "^6.1.1",
+    "email-validator": "^2.0.4",
     "expo": "~44.0.2",
     "expo-splash-screen": "~0.14.1",
     "expo-status-bar": "~1.2.0",
+    "firebase": "^9.6.6",
+    "formik": "^2.2.9",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-native": "0.64.3",
-    "react-native-web": "0.17.1"
+    "react-native-elements": "^3.4.2",
+    "react-native-firebase": "^5.6.0",
+    "react-native-gesture-handler": "~2.1.0",
+    "react-native-navigation": "^7.25.2",
+    "react-native-web": "0.17.1",
+    "react-navigation": "^4.4.4",
+    "valid-url": "^1.0.9",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9"
