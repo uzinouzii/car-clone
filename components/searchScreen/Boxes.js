@@ -1,8 +1,23 @@
-import { View, Text, StyleSheet, Image } from 'react-native'
-import React from 'react'
-import { TouchableOpacity } from 'react-native-gesture-handler'
+import { View, Text, StyleSheet, Image, Animated } from 'react-native'
+import React, {useRef, useState} from 'react'
+import { TouchableOpacity, TouchableWithoutFeedback } from 'react-native-gesture-handler'
+import LottieView from 'lottie-react-native';
 
 const Boxes = ({navigation}) => {
+const progress = useRef(new Animated.Value(0)).current;
+const [hasLiked, setHasLiked] = useState(false);
+
+    const handleLikeAnimation = () => {
+        const newValue = hasLiked ? 0 : 1;
+        Animated.timing(progress,{
+            toValue: newValue,
+            duration: 1000,
+            useNativeDriver: true,
+        }).start();
+
+        setHasLiked(!hasLiked)
+
+    }
   return (
     <View style ={styles.container}>
         <View style ={styles.box}>
@@ -12,6 +27,7 @@ const Boxes = ({navigation}) => {
                             <Image
                                 style ={styles.image}
                                 source={require('../../assets/bmw.png')}/>
+                            
                      </TouchableOpacity>
                 
            
@@ -94,7 +110,13 @@ const Boxes = ({navigation}) => {
             style ={styles.image}
             source={require('../../assets/Typer.png')}/>
         </TouchableOpacity>
-           
+        <View >
+            <TouchableOpacity onPress ={handleLikeAnimation} style = {styles.buttons}>
+            <LottieView progress={progress}
+                source={require('../../assets/Lottie/like.json')}            
+                />
+            </TouchableOpacity>
+        </View>
         </View>
         </View>
 
@@ -115,6 +137,11 @@ const styles = StyleSheet.create({
     
     },
 
+    buttons: {
+        width: 50,
+        height: 50
+    },
+
     box: {
         width: '30%',
         height: '34%',
@@ -128,9 +155,8 @@ const styles = StyleSheet.create({
         borderColor: 'black',
         borderWidth: 3,
         padding: 15,
-        
-        
-    }
+    },
+   
 })
 
 export default Boxes

@@ -5,7 +5,7 @@ import Header from '../components/searchScreen/Header';
 import Boxes from '../components/searchScreen/Boxes';
 import Events from '../components/searchScreen/Events';
 import { ScrollView } from 'react-native-gesture-handler';
-import Clubs from '../components/searchScreen/Clubs';
+import Footer from '../components/searchScreen/Footer';
 
 const SearchScreen = ({navigation}) => {
   return( 
@@ -16,7 +16,7 @@ const SearchScreen = ({navigation}) => {
     <Boxes navigation={navigation}/>
     <Text style={{color: 'white', backgroundColor: 'black', paddingLeft: 20, fontSize: 20, marginTop: 50}}>Popular Events</Text>
     <Events navigation={navigation}/>
-    <Clubs />
+    <Footer navigation = {navigation}/>
   
     
 </SafeAreaView>

@@ -26,31 +26,31 @@ const Mustang = () => {
     </View>
     <View style = {{flexDirection: 'row', alignItems: 'center'}}>
     <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 10}}>James</Text>
-    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 10}}>James</Text>
-    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 10}}>James</Text>
-    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 10}}>James</Text>
-    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 10}}>James</Text>
-    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 10}}>James</Text>
-    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 10}}>James</Text>
-    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 10}}>James</Text>
-    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 10}}>James</Text>
+    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 18}}>James</Text>
+    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 18}}>James</Text>
+    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 18}}>James</Text>
+    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 18}}>James</Text>
+    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 18}}>James</Text>
+    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 18}}>James</Text>
+    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 18}}>James</Text>
+    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 18}}>James</Text>
     </View>
 
     <View style = {styles.details}>
     <Text style = {{color: 'white', fontWeight: 'bold', fontSize: 20}}>Nissan 350z in detail</Text>
     <Text style = {{color: 'white', fontWeight: 'bold', paddingTop: 15}}>Performance and 0-60 time  </Text>
-    <Text style = {{color: 'white', fontSize: 15, paddingTop: 15}}> The  M4 matches the performance of supercars from not long ago, hitting 62mph in 4.1sec and reaching 155mph. The most impressive figure, however, is a 0-100mph time of 8.6sec.</Text>
+    <Text style = {{color: 'white', fontSize: 15, paddingTop: 15}}> The current 350Z has long been an favourite. It looks the part, sounds great, steers well and has enough power to jump from zero to 60mph in under 6 seconds. It has certainly done its bit to keep the 37-year-old Z legend alive, with more than 200,000 sales around the globe. </Text>
     <Text style = {{color: 'white', fontWeight: 'bold', paddingTop: 15}}> Engine and gearbox  </Text>
-    <Text style = {{color: 'white', fontSize: 15, paddingTop: 15}}> The 3-litre, twin-turbocharged straight-six develops 425bhp, but the real drama comes from the new engine’s torque, which peaks at 406lb ft from just 1850rpm.</Text>
+    <Text style = {{color: 'white', fontSize: 15, paddingTop: 15}}> Its ‘VQ’ 3.5-litre V6 has kept racking up the engine awards, winning America’s Wards gong every year since the turn of the century. With its new power unit, the mildly facelifted 350Z pumps out a healthy 313bhp at 6800rpm, up from 296bhp at 6400, while peak torque rises a smidge to 264lb ft at 4800rpm</Text>
     <Text style = {{color: 'white', fontWeight: 'bold', paddingTop: 15}}>  MPG and running costs </Text>
-    <Text style = {{color: 'white', fontSize: 15, paddingTop: 15}}> Now with a turbocharged engine, the M4 is substantially more frugal than before, and BMW quotes a combined 34.4mpg.</Text>
+    <Text style = {{color: 'white', fontSize: 15, paddingTop: 15}}> Now with a 3.5 Liter v6, the MPG is sitting at 24.8mpg </Text>
     </View>
 
     <View style = {styles.facts}> 
-    <Text style = {{color: 'white', paddingTop: 5}}>Price - From £50,000</Text>
-    <Text style = {{color: 'white', paddingTop: 5}}>Pros - Serious straight line performance, styling, dry-weather handling</Text>
-    <Text style = {{color: 'white', paddingTop: 5}}>Cons - Very tricky in the wet and over challenging roads</Text>
-    <Text style = {{color: 'white', paddingTop: 15}}>THIS APP NAME ratings - 8/10</Text>
+    <Text style = {{color: 'white', paddingTop: 5}}>Price - From £20,000</Text>
+    <Text style = {{color: 'white', paddingTop: 5}}>Pros - New engine makes Z even greater</Text>
+    <Text style = {{color: 'white', paddingTop: 5}}>Cons - Mildly disappointing ‘facelift’</Text>
+    <Text style = {{color: 'white', paddingTop: 15}}>THIS APP NAME ratings - 9/10</Text>
     </View>
     
 

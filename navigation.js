@@ -25,6 +25,17 @@ import HondaCivic from './screens/carsData/HondaCivic';
 import Lambo from './screens/carsData/Lambo';
 import Porsche from'./screens/carsData/Porsche';
 import Skyline from './screens/carsData/Skyline';
+import RegentStreetshow from './screens/Events/RegentStreetshow';
+import Centraldrive from './screens/Events/Centraldrive';
+import Classics from './screens/Events/Classics';
+import German from './screens/Events/German';
+import Jap from './screens/Events/Jap';
+import Wales from './screens/Events/Wales';
+import Users from './screens/Users/Users';
+import Vehicles from './screens/Vehicle/Vehicles';
+import Clubs from './screens/Club/Clubs'
+
+
 
 
 const Stack = createStackNavigator()
@@ -61,6 +72,15 @@ export const SignedInStack = () => (
             <Stack.Screen name = 'Lambo' component ={Lambo}/>
             <Stack.Screen name = 'Porsche' component ={Porsche}/>
             <Stack.Screen name = 'Skyline' component ={Skyline}/>
+            <Stack.Screen name = 'RegentStreetshow' component ={RegentStreetshow}/>
+            <Stack.Screen name = 'Centraldrive' component ={Centraldrive}/>
+            <Stack.Screen name = 'Classics' component ={Classics}/>
+            <Stack.Screen name = 'Jap' component ={Jap}/>
+            <Stack.Screen name = 'Wales' component ={Wales}/>
+            <Stack.Screen name = 'German' component = {German}/>
+            <Stack.Screen name = 'Clubs' component={Clubs}/>
+            <Stack.Screen name = 'Users' component={Users}/>
+            <Stack.Screen name = 'Vehicles' component={Vehicles}/>
          </Stack.Navigator>
     </NavigationContainer>
   )

@@ -1,7 +1,7 @@
 import { View, Text, StyleSheet, Image, ScrollView } from 'react-native'
 import React from 'react'
 import MenuItem from '../components/marketplaceScreen/MenuItem'
-import { Directions } from 'react-native-gesture-handler'
+import { Directions, TouchableOpacity } from 'react-native-gesture-handler'
 import { ImageBackground } from 'react-native'
 import Menuitem from '../components/searchScreen/Menuitem'
 
@@ -17,16 +17,7 @@ const NewEvents = ({navigation}) => {
           <View style ={styles.top}>
             <Text style = { styles.header}> Events and Drives </Text>
           </View>
-          <ScrollView style ={{flexDirection: 'row'}}>
-          <View style = {styles.menuContainer}>
-            <Menuitem/>
-            <Menuitem/> 
-            <Menuitem/> 
-            <Menuitem/> 
-
-          </View>
-          </ScrollView>
-
+          <Menuitem navigation={navigation}/>
         </View>
 
 
@@ -65,16 +56,10 @@ const styles = StyleSheet.create ({
     backgroundColor: 'rgba(255,255,255, .1)'
   }, 
   
-  menuContainer: {
-    height: '100%',
-    width: '100%',
-    paddingRight: 10,
-    paddingLeft: 10,
-    paddingTop: 10,
-    marginTop: 10,
-    flexDirection: 'row',
-  }
+ 
 
+
+  
 })
   
 

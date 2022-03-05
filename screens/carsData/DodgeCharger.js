@@ -26,30 +26,30 @@ const DodgeCharger = () => {
     </View>
     <View style = {{flexDirection: 'row', alignItems: 'center'}}>
     <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 10}}>James</Text>
-    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 10}}>James</Text>
-    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 10}}>James</Text>
-    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 10}}>James</Text>
-    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 10}}>James</Text>
-    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 10}}>James</Text>
-    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 10}}>James</Text>
-    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 10}}>James</Text>
-    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 10}}>James</Text>
+    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 18}}>James</Text>
+    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 18}}>James</Text>
+    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 18}}>James</Text>
+    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 18}}>James</Text>
+    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 18}}>James</Text>
+    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 18}}>James</Text>
+    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 18}}>James</Text>
+    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 18}}>James</Text>
     </View>
 
     <View style = {styles.details}>
     <Text style = {{color: 'white', fontWeight: 'bold', fontSize: 20}}>Dodge Charger in detail</Text>
     <Text style = {{color: 'white', fontWeight: 'bold', paddingTop: 15}}>Performance and 0-60 time  </Text>
-    <Text style = {{color: 'white', fontSize: 15, paddingTop: 15}}> The  M4 matches the performance of supercars from not long ago, hitting 62mph in 4.1sec and reaching 155mph. The most impressive figure, however, is a 0-100mph time of 8.6sec.</Text>
+    <Text style = {{color: 'white', fontSize: 15, paddingTop: 15}}> The Dodge charger offers a magnificent 0 to 50 acceleration speed of 6.4 seconds.</Text>
     <Text style = {{color: 'white', fontWeight: 'bold', paddingTop: 15}}> Engine and gearbox  </Text>
-    <Text style = {{color: 'white', fontSize: 15, paddingTop: 15}}> The 3-litre, twin-turbocharged straight-six develops 425bhp, but the real drama comes from the new engine’s torque, which peaks at 406lb ft from just 1850rpm.</Text>
+    <Text style = {{color: 'white', fontSize: 15, paddingTop: 15}}> 6.2 L, 16 Valve V-8 supercharged and intercooled pushrod with 16-valve, iron block and aluminum heads, port fuel injection offers a power of 797hp @6300 rpm with a torque of 707 lb-ft</Text>
     <Text style = {{color: 'white', fontWeight: 'bold', paddingTop: 15}}>  MPG and running costs </Text>
-    <Text style = {{color: 'white', fontSize: 15, paddingTop: 15}}> Now with a turbocharged engine, the M4 is substantially more frugal than before, and BMW quotes a combined 34.4mpg.</Text>
+    <Text style = {{color: 'white', fontSize: 15, paddingTop: 15}}>For a big engine muslce car, The Dodge charger provides a estiated 19 MPG city/ 30 MPG highway which is fair for a heavy muscle car.</Text>
     </View>
 
     <View style = {styles.facts}> 
-    <Text style = {{color: 'white', paddingTop: 5}}>Price - From £50,000</Text>
-    <Text style = {{color: 'white', paddingTop: 5}}>Pros - Serious straight line performance, styling, dry-weather handling</Text>
-    <Text style = {{color: 'white', paddingTop: 5}}>Cons - Very tricky in the wet and over challenging roads</Text>
+    <Text style = {{color: 'white', paddingTop: 5}}>Price - From £90,000</Text>
+    <Text style = {{color: 'white', paddingTop: 5}}>Pros - Power and handling is magnificent</Text>
+    <Text style = {{color: 'white', paddingTop: 5}}>Cons - Very poor MPG</Text>
     <Text style = {{color: 'white', paddingTop: 15}}>THIS APP NAME ratings - 8/10</Text>
     </View>
     

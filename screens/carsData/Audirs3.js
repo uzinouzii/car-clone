@@ -25,37 +25,32 @@ const Audirs3 = ({navigation}) => {
     </View>
     <View style = {{flexDirection: 'row', alignItems: 'center'}}>
     <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 10}}>James</Text>
-    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 10}}>James</Text>
-    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 10}}>James</Text>
-    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 10}}>James</Text>
-    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 10}}>James</Text>
-    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 10}}>James</Text>
-    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 10}}>James</Text>
-    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 10}}>James</Text>
-    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 10}}>James</Text>
+    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 18}}>James</Text>
+    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 18}}>James</Text>
+    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 18}}>James</Text>
+    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 18}}>James</Text>
+    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 18}}>James</Text>
+    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 18}}>James</Text>
+    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 18}}>James</Text>
+    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 18}}>James</Text>
     </View>
 
     <View style = {styles.details}>
     <Text style = {{color: 'white', fontWeight: 'bold', fontSize: 20}}>Audi RS3 in detail</Text>
     <Text style = {{color: 'white', fontWeight: 'bold', paddingTop: 15}}>Performance and 0-60 time  </Text>
-    <Text style = {{color: 'white', fontSize: 15, paddingTop: 15}}> The  M4 matches the performance of supercars from not long ago, hitting 62mph in 4.1sec and reaching 155mph. The most impressive figure, however, is a 0-100mph time of 8.6sec.</Text>
+    <Text style = {{color: 'white', fontSize: 15, paddingTop: 15}}>RS3 is was perhaps the only redeeming feature in dynamic terms and now it’s stronger than ever: 362bhp from 5550-6800rpm and 343lb ft from 1625-5550rpm. Combined with a reduction in weight of 55kg down to a more competitive 1595kg the RS3 can cover 0-62mph in 4.3-seconds and you can choose to raise the limiter from 155mph to 174mph.</Text>
     <Text style = {{color: 'white', fontWeight: 'bold', paddingTop: 15}}> Engine and gearbox  </Text>
-    <Text style = {{color: 'white', fontSize: 15, paddingTop: 15}}> The 3-litre, twin-turbocharged straight-six develops 425bhp, but the real drama comes from the new engine’s torque, which peaks at 406lb ft from just 1850rpm.</Text>
+    <Text style = {{color: 'white', fontSize: 15, paddingTop: 15}}> its 2.5-litre five-cylinder turbocharged engine produces 362bhp at 343lb ft from 1625-5550rpm. </Text>
     <Text style = {{color: 'white', fontWeight: 'bold', paddingTop: 15}}>  MPG and running costs </Text>
-    <Text style = {{color: 'white', fontSize: 15, paddingTop: 15}}> Now with a turbocharged engine, the M4 is substantially more frugal than before, and BMW quotes a combined 34.4mpg.</Text>
+    <Text style = {{color: 'white', fontSize: 15, paddingTop: 15}}> Now with a turbocharged engine, the rs3 provides a combined of 30mpg.</Text>
     </View>
 
     <View style = {styles.facts}> 
-    <Text style = {{color: 'white', paddingTop: 5}}>Price - From £50,000</Text>
-    <Text style = {{color: 'white', paddingTop: 5}}>Pros - Serious straight line performance, styling, dry-weather handling</Text>
-    <Text style = {{color: 'white', paddingTop: 5}}>Cons - Very tricky in the wet and over challenging roads</Text>
+    <Text style = {{color: 'white', paddingTop: 5}}>Price - From £50,900</Text>
+    <Text style = {{color: 'white', paddingTop: 5}}>Pros - Chassis upgrades finally create a nimble and agile RS3</Text>
+    <Text style = {{color: 'white', paddingTop: 5}}>Cons - Engine and gearbox feel out of date </Text>
     <Text style = {{color: 'white', paddingTop: 15}}>THIS APP NAME ratings - 8/10</Text>
     </View>
-    
-
-
-
-
     </ScrollView>
   )
 }

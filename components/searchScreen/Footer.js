@@ -7,12 +7,12 @@ const Car = 'https://cdn-icons.flaticon.com/png/512/1048/premium/1048313.png?tok
 const user = 'https://cdn-icons-png.flaticon.com/512/1177/1177568.png'
 const hashtag = 'https://cdn-icons.flaticon.com/png/512/5642/premium/5642069.png?token=exp=1645899923~hmac=37fa9be1b398fd2f1a2fdeb38055f1c2'
 
-const Clubs = () => {
+const Footer = ({navigation}) => {
     return (
         <View style ={styles.container}>
         <View style ={styles.box}>
         <Text style={{color: 'white'}}> Clubs </Text>
-                    <TouchableOpacity onPress={() => navigation.navigate('NewEvents')}>
+                    <TouchableOpacity onPress={() => navigation.navigate('Clubs')}>
                             <Image
                                 style ={styles.image}
                                 source={{uri: clubsIMG}}/>
@@ -21,7 +21,7 @@ const Clubs = () => {
 
         <View style ={styles.box}>
         <Text style={{color: 'white'}}> Vehicles </Text>
-        <TouchableOpacity onPress={() => navigation.navigate('NewEvents')}>
+        <TouchableOpacity onPress={() => navigation.navigate('Vehicles')}>
         <Image
             style ={styles.image}
             source={{uri: Car}}/>
@@ -32,7 +32,7 @@ const Clubs = () => {
 
         <View style ={styles.box}>
         <Text style={{color: 'white'}}> Users </Text>
-        <TouchableOpacity onPress={() => navigation.navigate('NewEvents')}>
+        <TouchableOpacity onPress={() => navigation.navigate('Users')}>
         <Image
             style ={styles.image}
             source={{uri: user}}/>
@@ -83,4 +83,4 @@ const styles = StyleSheet.create({
 })
     
         
-export default Clubs
+export default Footer

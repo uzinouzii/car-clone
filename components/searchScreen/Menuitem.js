@@ -1,34 +1,52 @@
 import { View, Text, Image, StyleSheet } from 'react-native'
 import React from 'react'
-import { ScrollView } from 'react-native-gesture-handler'
+import { ScrollView, TouchableOpacity } from 'react-native-gesture-handler'
 
-const Menuitem = () => {
+
+const Menuitem = ({navigation}) => {
   return (
-      <ScrollView>
-    <View style = {styles.menuitem}>
-      <Image
-        source ={require('../../assets/RSmotorshow.png')}
-        style ={StyleSheet.image}/>
-    </View>
-    </ScrollView>
+    <ScrollView style = {styles.menuitem}>
+          <View style = {styles.view}>
+            <TouchableOpacity onPress={() => navigation.navigate('RegentStreetshow')}>
+            <Image source = {require('../../assets/RSmotorshow.png')} />
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate('Centraldrive')}>
+            <Image source = {require('../../assets/Centraldrive.png')} />
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate('Classics')}>
+            <Image source = {require('../../assets/Classicsmeet.png')} />
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate('German')}>
+            <Image source = {require('../../assets/Germanmeet.png')} />
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate('Jap')}>
+            <Image source = {require('../../assets/Japmeet.png')} />
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate('Wales')}>
+            <Image source = {require('../../assets/Walesdrive.png')} />
+            </TouchableOpacity>
+          </View>
+          </ScrollView>
   )
 }
 
 const styles = StyleSheet.create({
+    
     menuitem: {
-        width: '60%', 
-        height: '60%', 
-        paddingTop: 120,
+        width: '100%', 
+        height: '100%', 
+        paddingRight: 5,
+        flexDirection: 'row',
+        
        
-    }, 
-
-    image: {
-        width: '90%', 
-        height: '30%', 
-        opacity: 0.8, 
-        borderColor: '#fff',
-        borderWidth: 3
+    },
+    view: {
+      flexDirection: 'row',
+      paddingTop: 150,
+      
     }
+
+
 })
 
 export default Menuitem

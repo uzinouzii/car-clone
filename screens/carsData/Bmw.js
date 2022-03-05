@@ -26,14 +26,14 @@ const Bmw = () => {
     </View>
     <View style = {{flexDirection: 'row', alignItems: 'center'}}>
     <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 10}}>James</Text>
-    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 10}}>James</Text>
-    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 10}}>James</Text>
-    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 10}}>James</Text>
-    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 10}}>James</Text>
-    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 10}}>James</Text>
-    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 10}}>James</Text>
-    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 10}}>James</Text>
-    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 10}}>James</Text>
+    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 18}}>James</Text>
+    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 18}}>James</Text>
+    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 18}}>James</Text>
+    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 18}}>James</Text>
+    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 18}}>James</Text>
+    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 18}}>James</Text>
+    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 18}}>James</Text>
+    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 18}}>James</Text>
     </View>
 
     <View style = {styles.details}>
