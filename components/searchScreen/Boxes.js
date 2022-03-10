@@ -110,13 +110,6 @@ const [hasLiked, setHasLiked] = useState(false);
             style ={styles.image}
             source={require('../../assets/Typer.png')}/>
         </TouchableOpacity>
-        <View >
-            <TouchableOpacity onPress ={handleLikeAnimation} style = {styles.buttons}>
-            <LottieView progress={progress}
-                source={require('../../assets/Lottie/like.json')}            
-                />
-            </TouchableOpacity>
-        </View>
         </View>
         </View>
 

@@ -34,6 +34,7 @@ import Wales from './screens/Events/Wales';
 import Users from './screens/Users/Users';
 import Vehicles from './screens/Vehicle/Vehicles';
 import Clubs from './screens/Club/Clubs'
+import NewpostScreen from './screens/NewpostScreen';
 
 
 
@@ -81,6 +82,7 @@ export const SignedInStack = () => (
             <Stack.Screen name = 'Clubs' component={Clubs}/>
             <Stack.Screen name = 'Users' component={Users}/>
             <Stack.Screen name = 'Vehicles' component={Vehicles}/>
+            <Stack.Screen name = 'NewpostScreen' component={NewpostScreen}/>
          </Stack.Navigator>
     </NavigationContainer>
   )

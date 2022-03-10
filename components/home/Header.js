@@ -18,21 +18,22 @@ const Header = ({navigation}) =>{
         </TouchableOpacity>
 
         <View style = {styles.iconsContainer}>
-            <TouchableOpacity >
-                <View style = {styles.unreadBadge}>
-                   <Text style = {styles.unreadBadgeText}>1</Text> 
-                </View>
-                <Image style= {styles.icon} source= {require('../../assets/messages.png')}/>
-            </TouchableOpacity>
 
-            <Text style = {{color: 'white'}}> </Text>
-
-            <View
-                style={styles.line}>
-</View>
+        <TouchableOpacity onPress={() => navigation.navigate('NewpostScreen')}>
+                <Image style= {styles.icon} source= {{uri:'https://cdn-icons.flaticon.com/png/512/2956/premium/2956875.png?token=exp=1646876791~hmac=b47865e447e5e1e0f1da2ac69db67a8a'}}/>
+        </TouchableOpacity>
+        <TouchableOpacity>
+            <View style = {styles.unreadBadge}>
+                <Text 
+                    style = {styles.unreadBadgeText}>5</Text> 
             </View>
-
-        </View>
+                <Image 
+                style= {styles.icon} 
+                source= {require('../../assets/messages.png')}/>
+        </TouchableOpacity>
+            </View>
+            </View>
+        
     
   );
 }
@@ -42,13 +43,15 @@ container: {
     justifyContent: 'space-between',
     alignItems: 'center',
     flexDirection: 'row',
-    marginHorizontal: '20',
+    marginHorizontal: 21,
     
 },
 
 iconsContainer: {
     flexDirection: 'row',
+    
 },
+
 
 logo: {
     width: 130,
@@ -58,8 +61,9 @@ logo: {
 icon: {
     width: 30, 
     height: 30,
-    marginLeft: 20,
+    marginLeft: 12,
     resizeMode: 'contain',
+    
 
 },
 

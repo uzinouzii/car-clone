@@ -14,10 +14,21 @@ const Profilepage = () => {
         </View>
       </View>
 
+
       <View style = {styles.center}>
         <Text style= {styles.text}>Followers</Text>
-        <Text style= {styles.text}>Followers</Text>
+        <Text style= {styles.text}>Following</Text>
+        <Text style= {styles.text}>Posts</Text>
+        <Text style= {styles.text}>Likes</Text>
       </View>
+
+      <View style = {styles.center}>
+        <Text style= {styles.text2}> 2000 </Text>
+        <Text style= {styles.text2}> 700 </Text>
+        <Text style= {styles.text2}> 25 </Text>
+        <Text style= {styles.text2}> 900 </Text>
+      </View>
+
       
       <View style = {styles.bottom}>
         
@@ -75,7 +86,7 @@ const styles = StyleSheet.create({
          flex: 1,
     }, 
     top: { 
-      height: '35%',
+      height: '30%',
       paddingTop: '20%',
       paddingLeft: '2%',
       backgroundColor: 'black'
@@ -89,13 +100,24 @@ const styles = StyleSheet.create({
       backgroundColor: '#eee'
     }, 
     text: {
-      color: 'black', 
+      color: 'white', 
       flexDirection: 'row',
-      flex: 1
+      padding: 13,
+      fontSize: 14,
+      fontWeight: 'bold'
     }, 
+    text2: {
+      color: 'white', 
+      flexDirection: 'row',
+      padding: 1,
+      paddingLeft: 39
+    },
     center: {
       height: '5%',
-      backgroundColor: 'brown'
+      backgroundColor: 'black',
+      flexDirection: 'row', 
+      flexWrap: 'wrap',
+      paddingLeft: 95
     }, 
     bottom: {
       height: '60%',
