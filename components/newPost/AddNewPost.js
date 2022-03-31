@@ -13,7 +13,7 @@ const AddNewPost = ({navigation}) => (
 const Header = ({navigation}) => (
 <View style ={styles.headerContainer}>
     <TouchableOpacity onPress={() => navigation.goBack()}>
-        <Image source ={{uri: 'https://cdn-icons.flaticon.com/png/512/3325/premium/3325360.png?token=exp=1646871067~hmac=6dea6f849b0bd330cecc8765eac87203' }}
+        <Image source ={{uri: 'https://cdn-icons.flaticon.com/png/512/5229/premium/5229132.png?token=exp=1646876919~hmac=2bf1c33c77641defe66a6c3efb60a4f4' }}
                 style={{width: 30, height: 30}}/>
     </TouchableOpacity>
     <Text style ={styles.headerText}> New Post </Text>

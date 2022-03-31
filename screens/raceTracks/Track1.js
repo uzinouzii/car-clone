@@ -1,12 +1,13 @@
-import { View, Text, StyleSheet } from 'react-native'
+import { View, Text, StyleSheet,Button } from 'react-native'
 import React from 'react'
-import { FlatList, ScrollView } from 'react-native-gesture-handler'
+import { FlatList, ScrollView, TouchableOpacity } from 'react-native-gesture-handler'
 
 const Track1 = ({navigation}) => {
   return (
     <ScrollView style ={styles.container}>
     <View >
       <Text style = {styles.text}>Bedford Autodrome </Text>
+      <Button title = 'Book Track now'/>
       <Text style = {styles.text2}>A test track and proving ground converted for motorsport on a 400-acre former air force base. Excellent for car track days and has recently started to host open pitlane bike track days. Rebuilt in 1999 and owned by former racing driver Jonathan Palmer, Bedford Autodrome was designed for the enjoyment of high-performance road cars. As well as an excellently designed and challenging layout, it also has lots of runoff areas making it one of the safest track day circuits in the country.
 
 For this reason, Bedford Autodrome track days are popular for novice drivers. The circuit has two layouts, the Grand Turismo, which is 4.1 miles long, and the SEN Circuit which is 2.3 miles long, both of which offer a challenge to all drivers of all levels of expertise.</Text>

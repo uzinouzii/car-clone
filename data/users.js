@@ -6,7 +6,7 @@ export const users = [
 },
 
 {
-    user: 'Shpend_thefarmer',
+    user: 'test100',
     image: 'https://image.shutterstock.com/image-vector/user-icon-trendy-flat-style-600w-1678508335.jpg'
 },
 

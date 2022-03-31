@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet, ScrollView, FlatList } from 'react-native'
+import { View, Text, StyleSheet, ScrollView, FlatList,Button } from 'react-native'
 import React from 'react'
 
 const Track2 = ({navigation}) => {
@@ -6,6 +6,7 @@ const Track2 = ({navigation}) => {
     <ScrollView style ={styles.container}>
     <View >
       <Text style = {styles.text}>Brands Hatch </Text>
+      <Button title = 'Book Track now'/>
       <Text style = {styles.text2}>Brands Hatch is one of the most charismatic circuits in the UK, steeped in history and as a spectator venue, it is unsurpassed in what it can offer. The natural amphitheatre that is its 1.2 mile Indy configuration offers unparalleled views of the action, while its sensational Grand Prix circuit remains one of the biggest challenges in UK motor racing. Brands Hatch track days are very popular and booking early is advised.</Text>
       <Text style = {styles.text}>Brands Hatch Noise Limits</Text>
       <Text style = {styles.text2}>For Car and Bike track days at Brands Hatch, there are generally 2 sets of noise limits. Where the static test limit is 105dB(A) the drive by limit is 92dB(A). If the quieter level static limit is 102dB(A) then note that the drive-by will still be 92dB(A). The drive-by limit is measured at a distance of 20m at various parts of the track. On the calendar, we show the static noise limit as standard. You can click the event to check the drive-by limit.</Text>

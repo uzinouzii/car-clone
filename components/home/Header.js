@@ -13,14 +13,12 @@ console.log(error)
 const Header = ({navigation}) =>{
   return (
     <View style = {styles.container}>
-        <TouchableOpacity onPress={handleSignOut}>
-            <Image style={styles.logo} source={require('../../assets/Sport-car.png')}/>
-        </TouchableOpacity>
+            <Image style={styles.logo} source={require('../../assets/Applogo.png')}/>
 
         <View style = {styles.iconsContainer}>
 
         <TouchableOpacity onPress={() => navigation.navigate('NewpostScreen')}>
-                <Image style= {styles.icon} source= {{uri:'https://cdn-icons.flaticon.com/png/512/2956/premium/2956875.png?token=exp=1646876791~hmac=b47865e447e5e1e0f1da2ac69db67a8a'}}/>
+                <Image style= {styles.icon} source= {{uri:'https://img.icons8.com/nolan/344/upload.png'}}/>
         </TouchableOpacity>
         <TouchableOpacity>
             <View style = {styles.unreadBadge}>
@@ -54,13 +52,13 @@ iconsContainer: {
 
 
 logo: {
-    width: 130,
-    height: 100,
+    width: 80,
+    height: 90,
     resizeMode: 'contain',
     },
 icon: {
-    width: 30, 
-    height: 30,
+    width: 35, 
+    height: 45,
     marginLeft: 12,
     resizeMode: 'contain',
     

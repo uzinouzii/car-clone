@@ -14,26 +14,26 @@ const Bmw = () => {
        <Text style = {{color: 'white', fontSize: 15, paddingLeft: 5, paddingTop: 15, paddingBottom: 8}}> Owners </Text>
      </View>
      <View style = {{flexDirection: 'row', alignItems: 'center'}}>
-      <Image source={require('../../assets/bmw.png')} style={styles.story}/>
-      <Image source={require('../../assets/bmw.png')} style={styles.story}/>
-      <Image source={require('../../assets/bmw.png')} style={styles.story}/>
-      <Image source={require('../../assets/bmw.png')} style={styles.story}/>
-      <Image source={require('../../assets/bmw.png')} style={styles.story}/>
-      <Image source={require('../../assets/bmw.png')} style={styles.story}/>
-      <Image source={require('../../assets/bmw.png')} style={styles.story}/>
-      <Image source={require('../../assets/bmw.png')} style={styles.story}/>
-      <Image source={require('../../assets/bmw.png')} style={styles.story}/>
+      <Image source={require('../../assets/amy.png')} style={styles.story}/>
+      <Image source={require('../../assets/user1.png')} style={styles.story}/>
+      <Image source={require('../../assets/user2.png')} style={styles.story}/>
+      <Image source={require('../../assets/user3.png')} style={styles.story}/>
+      <Image source={require('../../assets/user4.png')} style={styles.story}/>
+      <Image source={require('../../assets/user5.png')} style={styles.story}/>
+      <Image source={require('../../assets/user6.png')} style={styles.story}/>
+      <Image source={require('../../assets/user7.png')} style={styles.story}/>
+      <Image source={require('../../assets/user8.png')} style={styles.story}/>
     </View>
     <View style = {{flexDirection: 'row', alignItems: 'center'}}>
     <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 10}}>James</Text>
-    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 18}}>James</Text>
-    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 18}}>James</Text>
-    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 18}}>James</Text>
-    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 18}}>James</Text>
-    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 18}}>James</Text>
-    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 18}}>James</Text>
-    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 18}}>James</Text>
-    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 18}}>James</Text>
+    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 18}}>John12</Text>
+    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 18}}>Amyo</Text>
+    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 18}}>BMW12</Text>
+    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 18}}>J_F80</Text>
+    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 18}}>M3LOVE</Text>
+    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 18}}>POP12</Text>
+    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 18}}>ABIn12</Text>
+    <Text style = {{color: 'white', paddingTop: 5, paddingLeft: 18}}>E3201</Text>
     </View>
 
     <View style = {styles.details}>

@@ -1,6 +1,15 @@
 import { View, Text, StyleSheet, Image } from 'react-native'
 import React from 'react'
 import { TouchableOpacity } from 'react-native-gesture-handler'
+import { firebase } from '../../firebase'
+const handleSignOut = async () => {
+  try {
+   await firebase.auth().signOut()
+   console.log('Signed Out successfully!')
+  } catch (error) {
+  console.log(error)
+  }
+  }
 
 const Profilepage = () => {
   return (
@@ -14,7 +23,9 @@ const Profilepage = () => {
         </View>
       </View>
 
-
+      <TouchableOpacity onPress={handleSignOut}>
+            <Text style = {{color: 'red', fontWeight: 'bold', backgroundColor: 'black', fontSize: '13', paddingLeft: 330,}}> Sign out </Text>
+        </TouchableOpacity>
       <View style = {styles.center}>
         <Text style= {styles.text}>Followers</Text>
         <Text style= {styles.text}>Following</Text>
@@ -36,7 +47,7 @@ const Profilepage = () => {
           
             <View style ={styles.bottomIteminner}>
             <TouchableOpacity >
-              <Text style= {styles.bottomtext}> Post </Text>
+            <Image source = {require('../../assets/interests.png')} style ={styles.btmimage}  />
               </TouchableOpacity>
             </View>
             
@@ -48,7 +59,7 @@ const Profilepage = () => {
           <View style ={styles.bottomItem}>
             <View style ={styles.bottomIteminner}>
             <TouchableOpacity >
-              <Text style= {styles.bottomtext}> Garage </Text>
+            <Image source = {require('../../assets/garage1.png')} style ={styles.btmimage}  />
               </TouchableOpacity>
             </View>
   
@@ -59,7 +70,7 @@ const Profilepage = () => {
           
             <View style ={styles.bottomIteminner}>
             <TouchableOpacity >
-              <Text style= {styles.bottomtext}> Create Club </Text>
+            <Image source = {require('../../assets/posts.png')} style ={styles.btmimage}  />
               </TouchableOpacity>
             </View>
             
@@ -69,7 +80,7 @@ const Profilepage = () => {
           
             <View style ={styles.bottomIteminner}>
             <TouchableOpacity >
-              <Text style= {styles.bottomtext}> Interests </Text>
+            <Image source = {require('../../assets/club.png')} style ={styles.btmimage}  />
               </TouchableOpacity>
             </View>
             
@@ -119,6 +130,11 @@ const styles = StyleSheet.create({
       flexWrap: 'wrap',
       paddingLeft: 95
     }, 
+    btmimage: {
+      width: 190,
+      height: 207
+
+    },
     bottom: {
       height: '60%',
       backgroundColor: '#383838',

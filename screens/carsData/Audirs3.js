@@ -8,8 +8,8 @@ const Audirs3 = ({navigation}) => {
       <Image style = {styles.top}
         source ={require('../../assets/RS3.png')}>
     </Image>
-     <View>
-       <Text style = {{color: 'white', fontSize: 20, paddingLeft: 20, paddingTop: 20}}>Audi RS3  </Text>
+     <View> style = {{color: 'white', fontSize: 20, paddingLeft: 20, paddingTop: 20}}
+       <Text>Audi RS3  </Text>
        <Text style = {{color: 'white', fontSize: 15, paddingLeft: 5, paddingTop: 15, paddingBottom: 8}}> Owners </Text>
      </View>
      <View style = {{flexDirection: 'row', alignItems: 'center'}}>

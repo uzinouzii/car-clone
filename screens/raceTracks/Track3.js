@@ -1,4 +1,4 @@
-import {  View, Text, StyleSheet, ScrollView, FlatList } from 'react-native'
+import {  View, Text, StyleSheet, ScrollView, FlatList,Button } from 'react-native'
 import React from 'react'
 
 const Track3 = ({navigation}) => {
@@ -6,6 +6,7 @@ const Track3 = ({navigation}) => {
     <ScrollView style ={styles.container}>
     <View >
       <Text style = {styles.text}>Donington Park </Text>
+      <Button title = 'Book Track now'/>
       <Text style = {styles.text2}>Donington race track is a circuit of two halves - a very technical series of sweeping bends, followed by a series of short straights separated by slow corners. The section through Craner Curves and the Old Hairpin is a good place to experience the difference between world-class riders and the also-rans, and the Melbourne Hairpin is a favourite for last-minute out-braking action. The circuit variations include and National and Grand Prix layout on which you can take part in car and bike track days. These are run at various time throughout the year and are a great way to experience your vehicle on a real race circuit.</Text>
       <Text style = {styles.text}>Donington Park Noise Limits</Text>
       <Text style = {styles.text2}>For track days at Donington Park, there is usually no standard static test, only a drive-by. The drive-by noise limit is usually 98dB(A) but occasionally there will be a 'noisy' event where the limit is raised to 108dB(A).</Text>

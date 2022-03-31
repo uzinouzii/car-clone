@@ -16,12 +16,12 @@ const LoginForm = ({navigation}) => {
     const onLogin = async (email, password) => {
         try{
             await firebase.auth().signInWithEmailAndPassword(email, password)
-            console.log('Login Successful', email , password)
+            console.log('Login Successful', "Email: ", email ,)
         } catch (error) {
             Alert.alert('Hello ', error.message + '\n\n Try again') 
             [
                 {
-                    text: 'Ok mate',
+                    text: 'Ok',
                     onPress: () => console.log('OK'),
                     style: 'cancel',
                 }

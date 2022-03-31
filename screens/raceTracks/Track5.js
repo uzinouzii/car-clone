@@ -1,4 +1,4 @@
-import {  View, Text, StyleSheet, ScrollView, FlatList } from 'react-native'
+import {  View, Text, StyleSheet, ScrollView, FlatList,Button } from 'react-native'
 import React from 'react'
 
 const Track5 = ({navigation}) => {
@@ -6,6 +6,7 @@ const Track5 = ({navigation}) => {
     <ScrollView style ={styles.container}>
     <View >
       <Text style = {styles.text}>Silverstone </Text>
+      <Button title = 'Book Track now'/>
       <Text style = {styles.text2}>Built on an old military airport in 1948, Silverstone was a high-speed track with long straights and quick curves. Throughout the years the track layout has undergone several changes but retained most of its character. There are in fact 4 different layouts of the circuit at Silverstone, including a new GP Circuit, National, International and Stowe Circuit. With a combination of ultra fast corners, long straights and some slow sections, Silverstone represents a good challenge to any driver or rider. Silverstone, just like most of the other race circuits in the UK is another airfield conversion. Racing commenced in 1948 on the old perimeter track and runways and has continued to the current day. Silverstone has been the UK's top international car racing venue for much of the last twenty years, but until the last couple of years held no motorcycle races. Silverstone is the most famous race circuit in the UK at present, holding prestigious races like the Formula 1 Grand Prix and The World SuperBike Championship. A number of Formula 1 race teams are based close to the circuit in Northamptonshire. Anyone with a licence can do a track day at Silverstone. The Bike track days and Silverstone Car track days are open to anyone with a roadworthy vehicle.</Text>
       <Text style = {styles.text}>Silverstone Track Day Noise Limits</Text>
       <Text style = {styles.text2}>The Silverstone noise limit is usually based around a drive-by/ride-by limit of 102dB(A) but during an event, if a vehicle fails this limit they will be required to pass a 105db(A) static noise test at 0.5m at a 45-degree angle with the engine running at 3/4maximum revs.</Text>

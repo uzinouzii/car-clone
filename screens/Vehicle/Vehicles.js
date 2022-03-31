@@ -21,6 +21,7 @@ const [hasLiked, setHasLiked] = useState(false);
 
     }
   return (
+      <ScrollView style ={styles.maincontainer}>
     <View style ={styles.container}>
       <View style = {styles.header}>
           <Text style = {styles.text}>Vehicles for you</Text>
@@ -31,56 +32,56 @@ const [hasLiked, setHasLiked] = useState(false);
               <Image
                  resizeMode='cover'
                  style ={styles.image}
-                 source={require('../../assets/bedfordautodrome.jpg')}/>
+                 source={{uri: 'https://images.unsplash.com/photo-1621142975990-084822936160?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80'}}/>
         <TouchableOpacity onPress ={handleLikeAnimation} style = {styles.buttons}>
             <LottieView progress={progress}
                 source={require('../../assets/Lottie/like.json')}            
                 />
             </TouchableOpacity>
   
-        <Text style={styles.text}>Germans Cars</Text>
+        <Text style={styles.text}>2022 Toyota Supra</Text>
 </View>
 
 <View style ={styles.box}>
               <Image
                  resizeMode='cover'
                  style ={styles.image}
-                 source={require('../../assets/bedfordautodrome.jpg')}/>
+                 source={{uri: 'https://images.unsplash.com/photo-1587020502175-293caac77390?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80'}}/>
         <TouchableOpacity onPress ={handleLikeAnimation} style = {styles.buttons}>
             <LottieView progress={progress}
                 source={require('../../assets/Lottie/like.json')}            
                 />
             </TouchableOpacity>
   
-        <Text style={styles.text}>Classics club</Text>
+        <Text style={styles.text}>Porsche 911</Text>
 </View>
 
 <View style ={styles.box}>
               <Image
                  resizeMode='cover'
                  style ={styles.image}
-                 source={require('../../assets/bedfordautodrome.jpg')}/>
+                 source={{uri: 'https://images.unsplash.com/photo-1616647882383-d1b5fe8212c1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80'}}/>
         <TouchableOpacity onPress ={handleLikeAnimation} style = {styles.buttons}>
             <LottieView progress={progress}
                 source={require('../../assets/Lottie/like.json')}            
                 />
             </TouchableOpacity>
   
-        <Text style={styles.text}>JDM Club</Text>
+        <Text style={styles.text}>Bmw e30</Text>
 </View>
 
 <View style ={styles.box}>
               <Image
                  resizeMode='cover'
                  style ={styles.image}
-                 source={require('../../assets/bedfordautodrome.jpg')}/>
+                 source={{uri: 'https://images.unsplash.com/photo-1554744512-d6c603f27c54?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80'}}/>
         <TouchableOpacity onPress ={handleLikeAnimation} style = {styles.buttons}>
             <LottieView progress={progress}
                 source={require('../../assets/Lottie/like.json')}            
                 />
             </TouchableOpacity>
   
-        <Text style={styles.text}>American Muscle</Text>
+        <Text style={styles.text}>Tesla</Text>
 </View>
 
 
@@ -88,39 +89,99 @@ const [hasLiked, setHasLiked] = useState(false);
               <Image
                  resizeMode='cover'
                  style ={styles.image}
-                 source={require('../../assets/bedfordautodrome.jpg')}/>
+                 source={{uri: 'https://images.unsplash.com/photo-1563456162028-6704de5f0db4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80'}}/>
         <TouchableOpacity onPress ={handleLikeAnimation} style = {styles.buttons}>
             <LottieView progress={progress}
                 source={require('../../assets/Lottie/like.json')}            
                 />
             </TouchableOpacity>
   
-        <Text style={styles.text}>Modified Club</Text>
+        <Text style={styles.text}>Volkswagen Golf Gti</Text>
 </View>
 
 <View style ={styles.box}>
               <Image
                  resizeMode='cover'
                  style ={styles.image}
-                 source={require('../../assets/bedfordautodrome.jpg')}/>
+                 source={{uri: 'https://images.unsplash.com/photo-1641331822107-e3742a71c211?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80'}}/>
         <TouchableOpacity onPress ={handleLikeAnimation} style = {styles.buttons}>
             <LottieView progress={progress}
                 source={require('../../assets/Lottie/like.json')}            
                 />
             </TouchableOpacity>
   
-        <Text style={styles.text}>BMW club</Text>
+        <Text style={styles.text}>Bmw F30 M3</Text>
+</View>
+
+<View style ={styles.box}>
+              <Image
+                 resizeMode='cover'
+                 style ={styles.image}
+                 source={{uri: 'https://images.unsplash.com/photo-1620387982272-e206ac1be821?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80'}}/>
+        <TouchableOpacity onPress ={handleLikeAnimation} style = {styles.buttons}>
+            <LottieView progress={progress}
+                source={require('../../assets/Lottie/like.json')}            
+                />
+            </TouchableOpacity>
+  
+        <Text style={styles.text}>Subaru STI</Text>
+</View>
+
+<View style ={styles.box}>
+              <Image
+                 resizeMode='cover'
+                 style ={styles.image}
+                 source={{uri: 'https://images.unsplash.com/photo-1627508821199-5b89ca68a40d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80'}}/>
+        <TouchableOpacity onPress ={handleLikeAnimation} style = {styles.buttons}>
+            <LottieView progress={progress}
+                source={require('../../assets/Lottie/like.json')}            
+                />
+            </TouchableOpacity>
+  
+        <Text style={styles.text}>Audi RS3</Text>
+</View>
+
+<View style ={styles.box}>
+              <Image
+                 resizeMode='cover'
+                 style ={styles.image}
+                 source={{uri: 'https://images.unsplash.com/photo-1616617535619-55e3db07bd5b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80'}}/>
+        <TouchableOpacity onPress ={handleLikeAnimation} style = {styles.buttons}>
+            <LottieView progress={progress}
+                source={require('../../assets/Lottie/like.json')}            
+                />
+            </TouchableOpacity>
+  
+        <Text style={styles.text}>Audi R8</Text>
+</View>
+<View style ={styles.box}>
+              <Image
+                 resizeMode='cover'
+                 style ={styles.image}
+                 source={{uri: 'https://images.unsplash.com/photo-1626688416629-41536752cdc4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80'}}/>
+        <TouchableOpacity onPress ={handleLikeAnimation} style = {styles.buttons}>
+            <LottieView progress={progress}
+                source={require('../../assets/Lottie/like.json')}            
+                />
+            </TouchableOpacity>
+  
+        <Text style={styles.text}>Bmw e36</Text>
 </View>
 
 
 
+
+
+
+
 </View>
+</ScrollView>
 )
 }
 const styles = StyleSheet.create({
 container: {
    width: '100%',
-   height: '100%', 
+   height: '100%',
    padding: 8,
    flexDirection: 'row', 
    flexWrap: 'wrap',
@@ -128,6 +189,11 @@ container: {
    
 },
 
+maincontainer: {
+    width: '100%',
+    height: '100%', 
+    backgroundColor: 'black'
+},
 buttons: {
   margin: 5,
   position: "absolute",
@@ -153,18 +219,11 @@ header: {
   
 },
 
-text: {
-  color: 'white',
-  fontSize: 20,
-  
- 
- 
-},
 
 box: {
    width: '50%',
-   height: '27%',
-   padding: 30,
+   height: '60%',
+   padding: 14,
    paddingLeft: 15 
 
 },
@@ -175,13 +234,16 @@ inner: {
 
 image: {
    width: '100%', 
-   height: '100%', 
+   height: '80%', 
+   marginBottom: 5
    
 }, 
 
 text: {
    color: 'white',
-   paddingTop: 2
+   paddingTop: 2,
+   fontSize: 13,
+   fontWeight: 'bold'
 }
 
 

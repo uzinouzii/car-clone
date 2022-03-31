@@ -25,8 +25,9 @@ const getRandomProfilePicture = async () => {
 const onSignUp = async (email, password, username) => {
     try {
         const authUser = await firebase.auth().createUserWithEmailAndPassword(email, password)
-        console.log("User created successfully")
-        db.collection('users').add({
+        console.log("User created successfully: ", "Email: " ,email ,"Username: " ,username)
+
+        db.collection('users').doc(authUser.user.email).set({
             owner_uid: 
             authUser.user.uid,
             username: username,
@@ -117,8 +118,8 @@ return (
         </Pressable>
 
         <View style ={styles.loginContainer}>
-            <Text style ={{color: 'white', fontSize: 15}}> Already have an account? </Text>
-            <TouchableOpacity onPress={() => navigation.push('SignupScreen')}>
+            <Text style ={{color: 'white', fontSize: 15, fontWeight: 'bold'}}> Already have an account? </Text>
+            <TouchableOpacity onPress={() => navigation.push('LoginScreen')}>
                 <Text style ={{color: 'red', fontSize: 15}}>
                     Log in
                 </Text>
@@ -163,6 +164,7 @@ const styles = StyleSheet.create({
         fontWeight: '500',
         color: 'black',
         fontSize: 14,
+        fontWeight: 'bold'
     },
 
 })

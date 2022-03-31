@@ -24,7 +24,7 @@ export const POSTS = [
     {
         imageUrl: 'https://images.unsplash.com/photo-1607603750916-eaf866bc907d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
         user: users[1].user,
-        likes: 3000,
+        likes: 0,
         caption : "Lambo Killer",
         profile_picture: users[0].image,
         Comments: [

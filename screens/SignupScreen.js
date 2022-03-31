@@ -3,14 +3,13 @@ import React from 'react';
 import SignupForm from '../components/signupScreen/SignupForm';
 
 
-const App_logo = 'https://img.icons8.com/ios-glyphs/344/taxi-mobile-app.png'
+
 const SignupScreen = ({navigation}) => (
     <ImageBackground
-  style ={styles.container}
-  source ={require('../assets/Gtr.png')}>
+  style ={styles.container}>
     <View style ={styles.overlayContainer}>
     <View style ={styles.Logocontainer}>
-            <Image source ={{uri: App_logo, height: 100,  width:99}}/>
+            <Image source ={require('../assets/Applogo.png')}/>
             <SignupForm navigation={navigation}/>
         </View>
     </View>
@@ -21,7 +20,7 @@ const SignupScreen = ({navigation}) => (
     container: {
         flex:1,
         width: '100%',
-        backgroundColor:'white',
+        backgroundColor:'black',
         paddingTop: 50,
 
     },
@@ -31,7 +30,7 @@ const SignupScreen = ({navigation}) => (
     },
     overlayContainer:{
       flex: 1,
-      backgroundColor: 'rgba(47, 163, 218, .1)'
+      backgroundColor: 'black'
     }
 })
 export default SignupScreen;

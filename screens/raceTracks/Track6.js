@@ -1,4 +1,4 @@
-import {  View, Text, StyleSheet, ScrollView, FlatList } from 'react-native'
+import {  View, Text, StyleSheet, ScrollView, FlatList,Button } from 'react-native'
 import React from 'react'
 
 const Track6 = ({navigation}) => {
@@ -6,6 +6,7 @@ const Track6 = ({navigation}) => {
     <ScrollView style ={styles.container}>
     <View >
       <Text style = {styles.text}>Thruxton </Text>
+      <Button title = 'Book Track now'/>
       <Text style = {styles.text2}>Thruxton Race Circuit is one of the fastest in the country, with legendary high-speed corners and a reputation as a place where circuit drivers can really test their skills. It lays claim to being one of the longest in the UK, at 2.4 miles per lap. Both track days and driving experiences are available to book here.Thruxton, like many other circuits around the UK, was originally an old airfield, used during WWII. The airfield opened as a race track in 1950, both the runways and perimeter roads were used for the track.
         Thruxton track days are great to put your car through its paces. Note however that all Thruxton track days are run with a relatively quiet noise limit in place that all vehicles must comply to. Before any event, there will be a static noise test and the vehicle must be under 90db(A). The test is done at 0.5 meters from the exhaust outlet at 3/4 max revs. Although Thruxton holds race meetings, it is one of the quietest race circuits in the UK so please check your vehicle is suitable before booking a track day.</Text>
       <Text style = {styles.text}>Thruxton Track Day Noise Limit</Text>

@@ -1,4 +1,4 @@
-import {  View, Text, StyleSheet, ScrollView, FlatList } from 'react-native'
+import {  View, Text, StyleSheet, ScrollView, FlatList,Button } from 'react-native'
 import React from 'react'
 
 const Track4 = ({navigation}) => {
@@ -6,6 +6,7 @@ const Track4 = ({navigation}) => {
     <ScrollView style ={styles.container}>
     <View >
       <Text style = {styles.text}>Goodwood </Text>
+      <Button title = 'Book Track now'/>
       <Text style = {styles.text2}>Once graced by the likes of the late Sir Stirling Moss, Goodwood Motor Circuit is one of the most famous circuits in British racing history. Goodwood was revived as a circuit in 1998, and is currently in operation for track days and vehicle / performance testing. The circuit is just nearly 2.5 miles long, with higher speed bends and straights than multiple chicanes, perfect for the Own Car and Bike Track Days we have available to book here.
 
 Even on name alone, 'Glorious' Goodwood evokes a fond heritage and nostalgia of British motorsport from a golden age. Every year, they host their much loved Festival of Speed event, attracting motor enthusiasts from all around the UK. Goodwood is also one of our venues for a range of exciting Supercar and Racing Car driving experience packages, offering the chance to drive some of the most desirable marques and pole position victors around.</Text>

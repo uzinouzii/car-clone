@@ -21,66 +21,97 @@ const [hasLiked, setHasLiked] = useState(false);
 
     }
   return (
+    <ScrollView style ={styles.maincontainer}>
     <View style ={styles.container}>
       <View style = {styles.header}>
-          <Text style = {styles.text}>Suggested Users</Text>
+          <Text style = {styles.headerText}>Suggested Users</Text>
         </View>
-      
-    
     <View style ={styles.box}>
               <Image
                  resizeMode='cover'
                  style ={styles.image}
-                 source={require('../../assets/bedfordautodrome.jpg')}/>
+                 source={{uri:'https://randomuser.me/api/portraits/women/16.jpg'}}/>
         <TouchableOpacity onPress ={handleLikeAnimation} style = {styles.buttons}>
             <LottieView progress={progress}
-                source={require('../../assets/Lottie/like.json')}            
+                source={require('../../assets/Lottie/heart.json')}            
                 />
             </TouchableOpacity>
-  
-        <Text style={styles.text}>Germans Cars</Text>
+        <View style = {styles.center}>
+            <Text style={styles.text}>@Kelly1</Text>
+            <Text style= {styles.text}>Followers</Text>
+            <Text style= {styles.text}>Following</Text>
+      </View>
+
+      <View style = {styles.center}>
+            <Text style= {styles.text1}>500</Text>
+            <Text style= {styles.text11}>200</Text>
+      </View>
 </View>
 
 <View style ={styles.box}>
               <Image
                  resizeMode='cover'
                  style ={styles.image}
-                 source={require('../../assets/bedfordautodrome.jpg')}/>
+                 source={{uri:'https://randomuser.me/api/portraits/women/17.jpg'}}/>
         <TouchableOpacity onPress ={handleLikeAnimation} style = {styles.buttons}>
             <LottieView progress={progress}
-                source={require('../../assets/Lottie/like.json')}            
+                source={require('../../assets/Lottie/heart.json')}            
                 />
             </TouchableOpacity>
   
-        <Text style={styles.text}>Classics club</Text>
+        <View style = {styles.center}>
+            <Text style={styles.text}>@mBMW</Text>
+            <Text style= {styles.text}>Followers</Text>
+            <Text style= {styles.text}>Following</Text>
+      </View>
+      <View style = {styles.center}>
+            <Text style= {styles.text1}>200</Text>
+            <Text style= {styles.text11}>10</Text>
+      </View>
 </View>
 
 <View style ={styles.box}>
               <Image
                  resizeMode='cover'
                  style ={styles.image}
-                 source={require('../../assets/bedfordautodrome.jpg')}/>
+                 source={{uri:'https://randomuser.me/api/portraits/women/92.jpg'}}/>
         <TouchableOpacity onPress ={handleLikeAnimation} style = {styles.buttons}>
             <LottieView progress={progress}
-                source={require('../../assets/Lottie/like.json')}            
+                source={require('../../assets/Lottie/heart.json')}            
                 />
             </TouchableOpacity>
   
-        <Text style={styles.text}>JDM Club</Text>
+        <View style = {styles.center}>
+            <Text style={styles.text}>@Naz12</Text>
+            <Text style= {styles.text}>Followers</Text>
+            <Text style= {styles.text}>Following</Text>
+      </View>
+      <View style = {styles.center}>
+            <Text style= {styles.text1}>200</Text>
+            <Text style= {styles.text11}>9</Text>
+      </View>
 </View>
 
 <View style ={styles.box}>
               <Image
                  resizeMode='cover'
                  style ={styles.image}
-                 source={require('../../assets/bedfordautodrome.jpg')}/>
+                 source={{uri:'https://randomuser.me/api/portraits/men/21.jpg'}}/>
         <TouchableOpacity onPress ={handleLikeAnimation} style = {styles.buttons}>
             <LottieView progress={progress}
-                source={require('../../assets/Lottie/like.json')}            
+                source={require('../../assets/Lottie/heart.json')}            
                 />
             </TouchableOpacity>
   
-        <Text style={styles.text}>American Muscle</Text>
+        <View style = {styles.center}>
+            <Text style={styles.text}>@Zino1</Text>
+            <Text style= {styles.text}>Followers</Text>
+            <Text style= {styles.text}>Following</Text>
+      </View>
+      <View style = {styles.center}>
+            <Text style= {styles.text1}>100</Text>
+            <Text style= {styles.text11}>800</Text>
+      </View>
 </View>
 
 
@@ -88,103 +119,244 @@ const [hasLiked, setHasLiked] = useState(false);
               <Image
                  resizeMode='cover'
                  style ={styles.image}
-                 source={require('../../assets/bedfordautodrome.jpg')}/>
+                 source={{uri: 'https://randomuser.me/api/portraits/men/93.jpg'}}/>
         <TouchableOpacity onPress ={handleLikeAnimation} style = {styles.buttons}>
             <LottieView progress={progress}
-                source={require('../../assets/Lottie/like.json')}            
+                source={require('../../assets/Lottie/heart.json')}            
                 />
             </TouchableOpacity>
   
-        <Text style={styles.text}>Modified Club</Text>
+        <View style = {styles.center}>
+            <Text style={styles.text}>@Bmwp</Text>
+            <Text style= {styles.text}>Followers</Text>
+            <Text style= {styles.text}>Following</Text>
+      </View>
+      <View style = {styles.center}>
+            <Text style= {styles.text1}>100</Text>
+            <Text style= {styles.text11}>800</Text>
+      </View>
 </View>
 
 <View style ={styles.box}>
               <Image
                  resizeMode='cover'
                  style ={styles.image}
-                 source={require('../../assets/bedfordautodrome.jpg')}/>
+                 source={{uri: 'https://randomuser.me/api/portraits/men/90.jpg'}}/>
         <TouchableOpacity onPress ={handleLikeAnimation} style = {styles.buttons}>
             <LottieView progress={progress}
-                source={require('../../assets/Lottie/like.json')}            
+                source={require('../../assets/Lottie/heart.json')}            
                 />
             </TouchableOpacity>
   
-        <Text style={styles.text}>BMW club</Text>
+        <View style = {styles.center}>
+            <Text style={styles.text}>@Kevin0</Text>
+            <Text style= {styles.text}>Followers</Text>
+            <Text style= {styles.text}>Following</Text>
+      </View>
+      <View style = {styles.center}>
+            <Text style= {styles.text1}>500</Text>
+            <Text style= {styles.text11}>600</Text>
+      </View>
+</View>
+
+<View style ={styles.box}>
+              <Image
+                 resizeMode='cover'
+                 style ={styles.image}
+                 source={{uri: 'https://randomuser.me/api/portraits/men/2.jpg'}}/>
+        <TouchableOpacity onPress ={handleLikeAnimation} style = {styles.buttons}>
+            <LottieView progress={progress}
+                source={require('../../assets/Lottie/heart.json')}            
+                />
+            </TouchableOpacity>
+  
+        <View style = {styles.center}>
+            <Text style={styles.text}>@K4GTI</Text>
+            <Text style= {styles.text}>Followers</Text>
+            <Text style= {styles.text}>Following</Text>
+      </View>
+      <View style = {styles.center}>
+            <Text style= {styles.text1}>900</Text>
+            <Text style= {styles.text11}>80</Text>
+      </View>
+</View>
+
+<View style ={styles.box}>
+              <Image
+                 resizeMode='cover'
+                 style ={styles.image}
+                 source={{uri: 'https://randomuser.me/api/portraits/men/54.jpg'}}/>
+        <TouchableOpacity onPress ={handleLikeAnimation} style = {styles.buttons}>
+            <LottieView progress={progress}
+                source={require('../../assets/Lottie/heart.json')}            
+                />
+            </TouchableOpacity>
+  
+        <View style = {styles.center}>
+            <Text style={styles.text}>@K24r</Text>
+            <Text style= {styles.text}>Followers</Text>
+            <Text style= {styles.text}>Following</Text>
+      </View>
+      <View style = {styles.center}>
+            <Text style= {styles.text1}>70</Text>
+            <Text style= {styles.text11}>200</Text>
+      </View>
 </View>
 
 
-
+<View style ={styles.box}>
+              <Image
+                 resizeMode='cover'
+                 style ={styles.image}
+                 source={{uri: 'https://randomuser.me/api/portraits/men/92.jpg'}}/>
+        <TouchableOpacity onPress ={handleLikeAnimation} style = {styles.buttons}>
+            <LottieView progress={progress}
+                source={require('../../assets/Lottie/heart.json')}            
+                />
+            </TouchableOpacity>
+  
+        <View style = {styles.center}>
+            <Text style={styles.text}>@RB26j</Text>
+            <Text style= {styles.text}>Followers</Text>
+            <Text style= {styles.text}>Following</Text>
+      </View>
+      <View style = {styles.center}>
+            <Text style= {styles.text1}>500</Text>
+            <Text style= {styles.text11}>40</Text>
+      </View>
 </View>
+
+
+<View style ={styles.box}>
+              <Image
+                 resizeMode='cover'
+                 style ={styles.image}
+                 source={{uri: 'https://randomuser.me/api/portraits/lego/3.jpg'}}/>
+        <TouchableOpacity onPress ={handleLikeAnimation} style = {styles.buttons}>
+            <LottieView progress={progress}
+                source={require('../../assets/Lottie/heart.json')}            
+                />
+            </TouchableOpacity>
+  
+        <View style = {styles.center}>
+            <Text style={styles.text}>@2jzshi</Text>
+            <Text style= {styles.text}>Followers</Text>
+            <Text style= {styles.text}>Following</Text>
+      </View>
+      <View style = {styles.center}>
+            <Text style= {styles.text1}>500</Text>
+            <Text style= {styles.text11}>200</Text>
+      </View>
+</View>
+</View>
+</ScrollView>
 )
 }
 const styles = StyleSheet.create({
-container: {
-   width: '100%',
-   height: '100%', 
-   padding: 8,
-   flexDirection: 'row', 
-   flexWrap: 'wrap',
-   backgroundColor: 'black'
-   
-},
+    container: {
+        width: '100%',
+        height: '100%',
+        padding: 5,
+        paddingLeft: 5,
+        flexDirection: 'row', 
+        flexWrap: 'wrap',
+        backgroundColor: 'black'
+        
+     },
+center:{
+     height: '13%',
+     backgroundColor: 'black',
+     flexDirection: 'row', 
+     flexWrap: 'wrap',
+     padding: 5
+   }, 
+     
+     maincontainer: {
+         width: '100%',
+         height: '100%', 
+         backgroundColor: 'black'
+     },
+     buttons: {
+       margin: 5,
+       position: "absolute",
+       top: 0,
+       left: 0,
+       width: '25%',
+       height: '30%',
+     },
+     likebtn:{
+       flexDirection: 'row',
+       flexWrap: 'wrap',
+       
+       paddingRight: 50
+     },
+     
+     header: {
+       width: '100%',
+       height: '18%',
+       alignItems: 'center',
+       justifyContent: 'center',
+       paddingBottom: 20
+     
+       
+     },
+     
+     
+     box: {
+        width: '50%',
+        height: '40%',
+        padding: 14,
+        paddingLeft: 15 
+     
+     },
+     
+     inner: {
+        flex: 1,
+     },
+     
+     image: {
+        width: '100%', 
+        height: '60%', 
+        marginBottom: 5
+        
+     }, 
+     
+     text: {
+        color: 'white',
+        paddingTop: 1,
+        fontSize: 9,
+        fontWeight: 'bold',
+        flexDirection: 'row',
+        flexWrap: 'wrap',
+        paddingLeft: 10
+        
+     },
 
-buttons: {
-  margin: 5,
-  position: "absolute",
-  top: 0,
-  left: 0,
-  width: '35%',
-  height: '60%',
-},
-likebtn:{
-  flexDirection: 'row',
-  flexWrap: 'wrap',
-  
-  paddingRight: 50
-},
+     text1: {
+         paddingLeft: 68,
+         color: 'white',
+         fontSize: 10,
+     }, 
 
-header: {
-  width: '100%',
-  height: '15%',
-  alignItems: 'center',
-  justifyContent: 'center',
-  paddingBottom: 20
-
-  
-},
-
-text: {
-  color: 'white',
-  fontSize: 20,
-  
- 
- 
-},
-
-box: {
-   width: '50%',
-   height: '27%',
-   padding: 30,
-   paddingLeft: 15 
-
-},
-
-inner: {
-   flex: 1,
-},
-
-image: {
-   width: '100%', 
-   height: '100%', 
-   
-}, 
-
-text: {
-   color: 'white',
-   paddingTop: 2
-}
-
-
-})
+     text11: {
+        paddingLeft: 35,
+        color: 'white',
+        fontSize: 10,
+     },
+     text2: {
+        color: 'white',
+        paddingTop: 25,
+        fontSize: 9,
+        flexDirection: 'row',
+        flexWrap: 'wrap',
+     },
+     
+     headerText: {
+        color: 'white',
+        fontWeight: 'bold',
+     }
+     
+     })
+     
 
 export default Users
